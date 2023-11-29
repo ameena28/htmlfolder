@@ -1,0 +1,24 @@
+/*Simple Seclector*/
+#unique{
+    color:yellow;
+    border:orange;
+    background-color: aqua;
+}
+
+
+.para{
+    color:brown;
+
+}
+
+h1,p{
+    color:purple;
+}
+
+p{
+    color:chartreuse;
+}
+
+
+
+

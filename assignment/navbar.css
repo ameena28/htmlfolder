@@ -1,0 +1,78 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.parent0{
+    height:75px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.parent1{
+    height:75px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    
+}
+
+.parent2{
+    height:75px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
+.menublock{
+    height: 75px;
+    width:872px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.search{
+    height:525px;
+    width:1200px;
+    display:flex;
+    align-items:center;
+    text-align: end;
+}
+
+ul{
+    
+    list-style: none;
+    height:525px;
+    width:1200px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: left;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/*
+.child{
+    display:flex;
+    border:2px solid black;
+    height: 75px;
+    
+}
+
+*/
+

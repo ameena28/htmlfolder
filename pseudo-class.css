@@ -1,0 +1,35 @@
+a:link{
+    color:aqua;/*displayed before using*/
+}
+
+a:visited{
+    color:blue;/*displayed after using*/
+}
+
+a:active{
+    color:black;/*when you click on that*/
+    background-color: yellow;
+}
+a:hover{/*when you move cursor on that*/
+    cursor:ne-resize;
+}
+
+p:first-child{/*very first child*/
+    color:red;
+}
+ 
+p:first-of-type{/*it will consider first child i.e p beyond the order of occurence*/
+    color:yellow;
+}
+
+h1:last-of-type{
+     color:purple;
+}
+
+p:last-child{
+    background-color:lightblue;
+}
+
+p:nth-child(4){/*in 4th line there is no paragaraph child so the color is not changed*/
+    color:darkslategrey;
+}

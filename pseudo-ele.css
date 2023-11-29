@@ -1,0 +1,25 @@
+h1::before{
+    content:"good";
+}
+
+h1::after{
+    content:"Didn't had breakfast";
+}
+
+h1::first-letter{
+    color:red;
+}
+
+p::first-line{
+    color:blue;
+}
+
+li::marker{
+    color:yellow;
+    content:"△"
+}
+
+li::selection{
+    background-color: blue;
+    color:pink;
+}
